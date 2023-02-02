@@ -1,0 +1,154 @@
+/* FontFamily Imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Set Initial Style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Body style added */
+body {
+    width: 100%;
+    background-color:#787a7b;
+    color: white;
+}
+
+/* header section */
+#heading {
+    margin-top: 100px;
+}
+
+
+
+/* header navbar */
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* Navbars Background */
+.bg-color{
+    background-color: #212529;
+}
+
+/* search bar Container */
+#search-bar {
+    max-width: 600px;
+}
+
+
+/* Searchbar */
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+/* meal card */
+#card {
+    background-color: #717579;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* meal-details container Style */
+#meal-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#474c51 ;
+}
+/* Meal-details Left section */
+#meal-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+/* Image Container */
+#meal-thumbail{
+    width: 90%;
+}
+
+/* Meal detail section image */
+#meal-thumbail img{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+
+}
+
+/* Meal-detail-left-Section Details */
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 1rem;
+}
+/* Meal Details-section Instruction Section */
+#meal-instruction{
+    margin: .3rem 1rem;
+    width: 60%;
+    text-align: left;
+}
+
+
+/* Card-Parent-Container */
+.faisal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 18rem;
+    /* padding: 20px 0; */
+    margin: .7rem;
+
+
+}
+
+
+/* Card-Button-bg-Color  */
+.btn-bg-color{
+    background-color: rgb(73, 144, 144);
+}
+
+/* Card-Image */
+.faisal img{
+    width: 100%;
+    height: 70%;
+    border-radius: 7px;
+}
+
+
+
+
+/* favourites Section */
+#favourites-body{
+    background-color:#212529 ;
+}
+
+#favourites-body #card{
+    height: 15rem;
+}
+
+#favourites-body #card img{
+    height: 60%;
+}
+
+#favourites-body #card .card-body{
+    height: 40%;
+}
